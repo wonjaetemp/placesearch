@@ -100,7 +100,7 @@ api.naver.priority=1
 #### build in commandline
 ```
 # mvn package 
-# java --jar target/placesearch-0.0.1-SNAPSHOT.jar.original
+# java -jar target/placesearch-0.0.1-SNAPSHOT.jar
 ```
 
 ##### 장소 검색
