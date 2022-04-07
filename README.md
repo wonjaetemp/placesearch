@@ -97,17 +97,18 @@ api.naver.priority=1
 * Placesearch : 어플리케이션 실행
 * All Test : 유닛 테스트 실행 (검색결과의 합산 및 각 api 제공사의 응답 검증용 테스트 입니다.)
 
+#### build in commandline
+```
+# mvn package 
+# java --jar target/placesearch-0.0.1-SNAPSHOT.jar.original
+```
 
 ##### 장소 검색
 
 ```
 # curl -G --data-urlencode "q=카카오뱅크" http://localhost:8080/v1/place
-```
-
-```
 # curl -G --data-urlencode "q=신촌설렁탕" http://localhost:8080/v1/place
 ```
-
 > 브라우저 주소창 입력 예 : http://localhost:8080/v1/place?q=마포
 
 ##### 인기 키워드 검색
